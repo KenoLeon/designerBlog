@@ -8,25 +8,13 @@ layout: default
   "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
   "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
   "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
-  "And the work which has become a genre unto itself shall be called: The Designers Blog"<br/>
+
+
+  <ul>
+    {% for posts in site.categories.posts limit:2%}
+    <li>
+      <a href="">{{posts.title}}</a>
+      <p>{{posts.meta}}</p>
+    </li>
+    {% endfor %}
+  </ul>
