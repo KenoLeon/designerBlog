@@ -9,10 +9,18 @@
 
   <header>
     <h1>The Designer Blogs</h1>
-{% include nav.html %}
+{% include nav.html navclass='nav-top' %}
     </header>
 
 {{ content }}
+
+<footer>
+
+{% include nav.html navclass='nav-bottom' %}
+<p>2016 The Designer Blogs</p>
+
+</footer>
+
 
 </body>
 </html>

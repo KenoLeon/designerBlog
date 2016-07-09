@@ -7,3 +7,17 @@ html{
 .current{
   background-color:rgb(176, 176, 176);
 }
+
+.nav{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav >li{
+  display: inline-block;
+}
+
+.nav-top{
+  font-size: 1.25 rem;
+}
